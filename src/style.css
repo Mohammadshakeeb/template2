@@ -29,3 +29,21 @@ ul {
   li a:hover {
     background-color:green;
   }
+  .middle{
+      width:69%;
+      float:left;
+      background-color:whitesmoke;
+      padding-left: 15px;
+      /* padding-right: 10px; */
+  }
+  .container{
+      /* overflow: hidden; */
+  }
+  .middle-right{
+      padding-top:15px;
+      padding-left:9px;
+      background-color:silver;
+      height: 700px;
+      float: right;
+      width: 29%;
+    }
