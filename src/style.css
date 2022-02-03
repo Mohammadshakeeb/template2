@@ -1,6 +1,6 @@
 .head-section{
     background-color: silver;
-    width:100%;
+    width:99%;
     font-size: 40px;
     padding: 10px;
     
@@ -11,6 +11,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    width:auto;
   }
   
   li {
@@ -30,20 +31,37 @@ ul {
     background-color:green;
   }
   .middle{
-      width:69%;
+      width:68%;
       float:left;
       background-color:whitesmoke;
       padding-left: 15px;
+      padding-bottom: 200px;
+      /* height: 600px; */
       /* padding-right: 10px; */
   }
   .container{
-      /* overflow: hidden; */
+      background-color:silver ;
+      display: flex;
+      
   }
   .middle-right{
       padding-top:15px;
       padding-left:9px;
       background-color:silver;
-      height: 700px;
-      float: right;
-      width: 29%;
+      /* height: 600px; */
+      padding-bottom: 300px;
+      float: left;
+      width: 25%;
+      padding-left:25px;
+      padding-right: 55px;
+      overflow: hidden;
     }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:gray;
+        color: white;
+        text-align: center;
+     }
