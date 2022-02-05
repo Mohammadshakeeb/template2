@@ -2,7 +2,7 @@
     background-color: silver;
     width:99%;
     font-size: 40px;
-    padding: 10px;
+    padding: 7px;
     
 }
 ul {
@@ -57,11 +57,26 @@ ul {
       overflow: hidden;
     }
     .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
+        position:relative;
+        bottom:0px;
+        left:0px;
         width: 100%;
         background-color:gray;
         color: white;
-        text-align: center;
+        text-align: right;
+        padding:0px;
+        padding-top: 4px;
+        padding-bottom:4px;
+     }
+     h1{
+      color:rgb(62, 62, 238); 
+      margin-bottom:0px;
+     }
+     h2{
+      color: rgb(71, 71, 255);
+      margin-bottom: 0%;
+      margin-top:0%;
+     }
+     #shakeeb{
+      margin-top:0px;
      }
